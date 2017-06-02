@@ -1,5 +1,5 @@
 # C# demo/test codes :rocket:
-`ConsoleApp1` is the default project name of a new console application in Visual Stuio  
+`ConsoleApp1` is the default project name of a new console application in Visual Studio  
 So almost all demos and tests are written in this project
 
 ## Table of Content
