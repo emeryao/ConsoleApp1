@@ -17,5 +17,6 @@ So almost all demos and tests are written in this project
         Hello World :kissing_heart:
     * [Sha1Hash.cs](./ConsoleApp1/Classes/Sha1Hash.cs)  
         SHA1 Hash
-
-
+    * [TextSpeech.cs](./ConsoleApp1/Classes/TextSpeech.cs)  
+        Text to speech
+		

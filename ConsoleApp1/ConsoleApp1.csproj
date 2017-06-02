@@ -36,6 +36,7 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Speech" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -47,6 +48,7 @@
     <Compile Include="Classes\AesEncryption.cs" />
     <Compile Include="Classes\HelloWorld.cs" />
     <Compile Include="Classes\CacheInMemory.cs" />
+    <Compile Include="Classes\TextSpeech.cs" />
     <Compile Include="Interfaces\IEntrance.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
