@@ -44,7 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes\AesEncyption.cs" />
+    <Compile Include="Classes\AesEncryption.cs" />
     <Compile Include="Classes\HelloWorld.cs" />
     <Compile Include="Classes\CacheInMemory.cs" />
     <Compile Include="Interfaces\IEntrance.cs" />
