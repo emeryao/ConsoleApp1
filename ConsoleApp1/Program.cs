@@ -1,5 +1,6 @@
 ﻿using ConsoleApp1.Classes;
 using ConsoleApp1.Interfaces;
+using System;
 
 namespace ConsoleApp1
 {
@@ -7,7 +8,8 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            IEntrance entrance = new MultipleTask();
+            IEntrance entrance = new AesEncryption();
+            Console.WriteLine($"Start running class: {entrance.GetType().Name}\n");
             entrance.Run();
         }
     }
