@@ -7,7 +7,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            IEntrance entrance = new CacheInMemory();
+            IEntrance entrance = new MultipleTask();
             entrance.Run();
         }
     }

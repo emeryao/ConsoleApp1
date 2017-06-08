@@ -19,4 +19,8 @@ So almost all demos and tests are written in this project
         SHA1 Hash
     * [TextSpeech.cs](./ConsoleApp1/Classes/TextSpeech.cs)  
         Text to speech
+    * [AsyncHttpRequest.cs](./ConsoleApp1/Classes/AsyncHttpRequest.cs)  
+        Async http request
+    * [MultipleTask.cs](./ConsoleApp1/Classes/MultipleTask.cs)  
+        Start multiple tasks at the same time
 		

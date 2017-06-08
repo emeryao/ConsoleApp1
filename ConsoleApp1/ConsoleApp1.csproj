@@ -46,8 +46,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\AesEncryption.cs" />
+    <Compile Include="Classes\AsyncHttpRequest.cs" />
     <Compile Include="Classes\HelloWorld.cs" />
     <Compile Include="Classes\CacheInMemory.cs" />
+    <Compile Include="Classes\MultipleTask.cs" />
     <Compile Include="Classes\TextSpeech.cs" />
     <Compile Include="Interfaces\IEntrance.cs" />
     <Compile Include="Program.cs" />
