@@ -1,6 +1,6 @@
 # C# demo/test codes :rocket:
 `ConsoleApp1` is the default project name of a new console application in Visual Studio  
-So almost all demos and tests are written in this project
+So almost all demos and tests are written in project with this name
 
 ## Table of Content
 * [Program.cs](./ConsoleApp1/Program.cs)  
@@ -23,4 +23,7 @@ So almost all demos and tests are written in this project
         Async http request
     * [MultipleTask.cs](./ConsoleApp1/Classes/MultipleTask.cs)  
         Start multiple tasks at the same time
+
+## Last Update
+`2017.06.08`
 		

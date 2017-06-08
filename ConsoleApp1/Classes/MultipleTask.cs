@@ -13,6 +13,7 @@ namespace ConsoleApp1.Classes
         {
             Task.Run(async () =>
             {
+                // function to run in each task
                 Func<long> func = () =>
                 {
                     DateTime dt = DateTime.Now;
@@ -20,14 +21,21 @@ namespace ConsoleApp1.Classes
                     return dt.Ticks;
                 };
 
+                // get a task list of 10 tasks
                 List<Task<long>> list = new List<Task<long>>();
                 for (int i = 0; i < 10; i++)
                 {
                     Task<long> t = new Task<long>(func);
                     list.Add(t);
                 }
+
+                // start every task
                 list.ForEach(t => t.Start());
+
+                // await for all tasks' result
                 long[] results = await Task.WhenAll(list);
+
+                // get some analysis
                 Console.WriteLine($"earliest to latest: {(double)(results.Max() - results.Min()) / 100000}ms");
             }).Wait();
         }
